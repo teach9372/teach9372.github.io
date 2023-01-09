@@ -1,163 +1,211 @@
 [
   
     {
-      "title"    : "What are databases?",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/databases/1/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "What is peer review?",
+      "title"    : "Adding alerts to content",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/docs/databases/2/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/alerts/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Knowledge Check",
+      "title"    : "Google Analytics",
       "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/databases/3/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "tags"     : "",
+      "url"      : "docstest/docs/analytics/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Additional Help and Feedback",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/databases/4/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Export",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/databases/5/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Omni",
-      "category" : "",
-      "tags"     : "setup",
-      "url"      : "/docs/omni/1/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "What is peer review?",
+      "title"    : "Category boxes section",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/docs/omni/2/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/boxes/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Knowledge Check",
-      "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/omni/3/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Additional Help and Feedback",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/omni/4/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Export",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/omni/5/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Peer Review",
+      "title"    : "Creating a changelog",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/peerreview/1/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/changelog/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "What is peer review?",
+      "title"    : "Enabling comments (via Disqus)",
       "category" : "",
-      "tags"     : "features",
-      "url"      : "/docs/peerreview/2/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "tags"     : "",
+      "url"      : "docstest/docs/comments/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Knowledge Check",
-      "category" : "",
-      "tags"     : "customize",
-      "url"      : "/docs/peerreview/3/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Additional Help and Feedback",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/peerreview/4/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Export",
-      "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/peerreview/5/",
-      "date"     : "2023-01-09 14:04:11 -0500"
-    } ,
-  
-    {
-      "title"    : "Peer Review",
+      "title"    : "Contact form (via FormSpree)",
       "category" : "",
       "tags"     : "setup",
-      "url"      : "/docs/scholarlysources/1/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/contact/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "What is peer review?",
+      "title"    : "Call to action section",
       "category" : "",
       "tags"     : "features",
-      "url"      : "/docs/scholarlysources/2/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/cta/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Knowledge Check",
+      "title"    : "Customization",
       "category" : "",
       "tags"     : "customize",
-      "url"      : "/docs/scholarlysources/3/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/customize/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Additional Help and Feedback",
+      "title"    : "Development",
       "category" : "",
-      "tags"     : "help, customize",
-      "url"      : "/docs/scholarlysources/4/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "tags"     : "customize",
+      "url"      : "docstest/docs/development/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } ,
   
     {
-      "title"    : "Export",
+      "title"    : "Creating docs posts",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "docstest/docs/docs/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Frequently asked questions section",
+      "category" : "",
+      "tags"     : "features, featured",
+      "url"      : "docstest/docs/faq/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Fearured docs section",
+      "category" : "",
+      "tags"     : "features",
+      "url"      : "docstest/docs/featured/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Footer options",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "docstest/docs/footer/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Hero page header",
+      "category" : "",
+      "tags"     : "features",
+      "url"      : "docstest/docs/hero/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Theme installation",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "docstest/docs/installation/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Adding media to post and doc content",
+      "category" : "",
+      "tags"     : "features, featured",
+      "url"      : "docstest/docs/media/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Navigation bar",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "docstest/docs/navigation/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Updating your billing credit card",
+      "category" : "",
+      "tags"     : "othertag",
+      "url"      : "docstest/docs/pages/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Creating your first post in Jekyll",
+      "category" : "",
+      "tags"     : "featured",
+      "url"      : "docstest/docs/posts/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Basic theme setup",
+      "category" : "",
+      "tags"     : "setup",
+      "url"      : "docstest/docs/setup/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Sources and credits",
+      "category" : "",
+      "tags"     : "customize",
+      "url"      : "docstest/docs/sources/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Contacting support",
       "category" : "",
       "tags"     : "help, customize",
-      "url"      : "/docs/scholarlysources/5/",
-      "date"     : "2023-01-09 14:04:11 -0500"
+      "url"      : "docstest/docs/support/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Team members section",
+      "category" : "",
+      "tags"     : "features",
+      "url"      : "docstest/docs/team/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Adding table of contents to docs",
+      "category" : "",
+      "tags"     : "features",
+      "url"      : "docstest/docs/toc/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Translation",
+      "category" : "",
+      "tags"     : "customize",
+      "url"      : "docstest/docs/translation/",
+      "date"     : "2020-04-01 05:11:38 -0500"
+    } ,
+  
+    {
+      "title"    : "Video lightbox boxes section",
+      "category" : "",
+      "tags"     : "features, featured",
+      "url"      : "docstest/docs/videos/",
+      "date"     : "2020-04-01 05:11:38 -0500"
     } 
   
 ]
