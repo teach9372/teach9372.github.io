@@ -62,18 +62,17 @@ authors:
 
 # Social icons displayed in footer
 social:
-    email:
-    website:
-    facebook:       https://www.facebook.com/
+    email:          cmurgu@brocku.ca
+    website:        https://brocku.ca/library
+    facebook:       
     flickr:
     dribbble:
-    github:
+    github:         https://github.com/brocktnl
     googleplus:
-    instagram:      https://www.instagram.com/
     linkedin:
     pinterest:
     twitter:        https://twitter.com/
-    youtube:
+    youtube:        https://www.youtube.com/@BrockLibrary
 
 # Share button
 share:
@@ -84,7 +83,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      Made by the Teaching and Learning Department at Brock University Library.
+    copyright:      Made with ❤️ by the Teaching and Learning Department at the Brock University Library. 
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
