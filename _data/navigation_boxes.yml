@@ -35,3 +35,9 @@
   icon:  more
   doc: primarysecondarysources
   lesson: primarysecondarysources
+
+- title: Citation Chaining
+  desc: Under construction!
+  icon:  future
+  doc: citationchaining
+  lesson: citationchaining
