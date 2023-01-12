@@ -1,0 +1,8 @@
+{% assign docs_files = site.documents | where: "path", "*docs/*" %}
+{% assign dirs = docs_files | map: "dirname" | uniq %}
+{% assign dir = dirs | shuffle | first %}
+{% assign file = docs_files | where: "dirname", dir | where: "basename", "1.md" | first %}
+{% assign content = file.content | markdownify %}
+
+<h1>{{ file.data.title }}</h1>
+<h2>{{ file.data.subtitle }}</h2>

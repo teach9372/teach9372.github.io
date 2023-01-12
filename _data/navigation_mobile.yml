@@ -1,0 +1,14 @@
+# Mobile menu navigation links
+
+- title: Home
+  url: /
+
+- title: Lessons
+  url: /lessons/
+
+- title: Blog
+  url: /blog/
+
+- title: Contact
+  url: /contact/
+  button: success

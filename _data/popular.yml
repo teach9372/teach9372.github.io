@@ -1,0 +1,16 @@
+# popular content
+
+- title: Omni
+  desc: Omni is the university's search interface — it scans across all of our resources and tries to get you what you need, when you need it. Learn more about Omni in this lesson.
+  url: docs/omni/1
+  icon: server
+
+- title: What is peer review?
+  desc: In university, we constantly throw around the term “peer review.” What does it mean, and why is it important? This lesson will show you why.
+  url: docs/peerreview/1
+  icon: users
+
+- title: What's a database?
+  desc: Use this database, use that database! Uh, what's a database? This lesson will explain what scholarly databases are and how to find and access them.
+  url: docs/databases/1
+  icon: database

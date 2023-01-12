@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-01-12T10:03:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Brock Library Digital Learning</title><subtitle>Brock Library Digital Learning v2</subtitle><author><name>Cal Murgu</name></author><entry><title type="html">New year, new BrockTNL!</title><link href="http://localhost:4000/version2.html" rel="alternate" type="text/html" title="New year, new BrockTNL!" /><published>2023-01-09T00:00:00-05:00</published><updated>2023-01-09T00:00:00-05:00</updated><id>http://localhost:4000/version2</id><content type="html" xml:base="http://localhost:4000/version2.html">&lt;p&gt;For several months now I’ve been chipping away at a refresh of the https://brocktnl.github.io learning portal. The previous website, built in Hugo, was starting to show its limitations as content on the website increased in size and scope. Moreover, the theme that we were using for the website, a documentation theme by the way that we customized to meet our needs, was starting to have some problems. So we did two things:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Switched to Jekyll&lt;/li&gt;
+  &lt;li&gt;Licensed a proper theme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-new-site&quot;&gt;The new site&lt;/h2&gt;
+
+&lt;p&gt;This is the new site (Brocktnlv2!) The site builds (on the back end) and loads (on the front end) much faster than our previous portal. It also comes with added functionality, such as tagging, related posts/pages, blogs (so that our authors can write additional stuff), and authoring ability. The site is also cleaner and more modern.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>cal</name></author><summary type="html">For several months now I’ve been chipping away at a refresh of the https://brocktnl.github.io learning portal. The previous website, built in Hugo, was starting to show its limitations as content on the website increased in size and scope. Moreover, the theme that we were using for the website, a documentation theme by the way that we customized to meet our needs, was starting to have some problems. So we did two things:</summary></entry></feed>

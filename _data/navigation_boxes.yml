@@ -1,0 +1,37 @@
+# Boxes include navigation
+
+- title: What are Databases?
+  desc: Use this database, use that database! Uh, what's a database? This lesson will explain what scholarly databases are and how to find and access them.
+  icon: cog
+  lesson: databases
+  doc: databases
+
+- title: Peer Review
+  desc: In university, we constantly throw around the term “peer review.” What does it mean, and why is it important? This lesson will show you why.
+  icon: settings
+  doc: peerreview
+  lesson: peerreview
+
+- title: Scholarly Sources
+  desc: What differentiates a 'scholarly' source from any other source? Click here to find out.
+  icon: code
+  doc: scholarlysources
+  lesson: scholarlysources
+
+- title: Omni
+  desc: Want to learn more about Omni? Try this lesson.
+  icon: cog
+  doc: omni
+  lesson: omni
+
+- title: Annotated Bibliographies
+  desc: Annotated bibliographies are a common assignment in university. This lesson will show you how to succeed with your annotated bibliography assignments.
+  icon:  git-fork
+  doc: annotatedbibliographies
+  lesson: annotatedbibliographies
+
+- title: Primary and Secondary Sources
+  desc: What's the difference between primary and secondary sources? Complete this lesson to learn more about the sources you'll need to consider.
+  icon:  more
+  doc: primarysecondarysources
+  lesson: primarysecondarysources
