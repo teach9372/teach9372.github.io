@@ -38,6 +38,12 @@
 
 - title: Citation Chaining
   desc: Under construction!
-  icon:  future
+  icon:  link
+  doc: citationchaining
+  lesson: citationchaining
+
+- title: Creating a Search Strategy
+  desc: Searching for academic literature isn't the same as searching for stuff on Google. You'll need to think through your search strategy if you want to get the most out of research databases in the least amount of time. This lesson will show you how.
+  icon:  search
   doc: citationchaining
   lesson: citationchaining
