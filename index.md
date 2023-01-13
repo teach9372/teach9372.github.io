@@ -8,6 +8,8 @@ hero:
     search: true
 ---
 
+{% include choice.html columns="2" title="Your Choice" subtitle="We've designed our lessons with the learner's choice in mind. You can choose to engage with individual lessons or set off on a learning path. It's up to you!" %}
+
 {% include popular.html columns="3" title="Popular Content" subtitle="Some of our most popular content." %}
 
 {% include videos.html columns="2" title="Video Tutorials" subtitle="Want to skip straight to the videos? No problem." %}

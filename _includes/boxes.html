@@ -28,6 +28,12 @@
             <div>
                 <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
                     <a class="uk-position-cover" href="{{ doc_url }}"></a>
+                    {% if item.lesson == item.doc %}
+                        <button class="uk-button uk-button-danger">Lesson</button>
+                        {% elsif item.lesson == "path" %}
+                    <button class="uk-button uk-button-primary" style="background-color:skyblue !important;">Path</button>
+                    {% endif %}
+                    <br><br>
                     {% if item.icon %}
                     <span data-uk-icon="icon: {{ item.icon }}; ratio: 3.4" class=""></span>
                     {% endif %}

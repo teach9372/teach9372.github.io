@@ -1,0 +1,9 @@
+# popular content
+
+- title: Lessons
+  desc: Lessons generally focus on one particular topic. Lessons include a short video (around 3 minutes) followed by an activity to test your understanding. Lessons are meant to be quick primers on a subject.
+  icon: server
+
+- title: Paths
+  desc: Paths are a collection of lessons specifically arranged to give you a more in-depth understanding of how to conduct research in a university setting. Paths include several videos followed by activities that test your understanding.
+  icon: users
