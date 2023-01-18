@@ -23,9 +23,9 @@
 
         <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
         {% for item in site.data.navigation_boxes %}
+            {% if item.lesson == item.doc %}
             {% if item.title and item.lesson %}
             {% assign doc_url = item.doc | prepend:"/docs/" | append: "/1" %}
-            {% if item.lesson == item.doc %}
             <div>
                 <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
                     <a class="uk-position-cover" href="{{ doc_url }}"></a>
