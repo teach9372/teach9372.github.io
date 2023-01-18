@@ -4,21 +4,26 @@
   - /1
 
 - title: 2
-  subtitle: Video
+  subtitle: About you
   docs:
   - /2
 
 - title: 3
-  subtitle: Activity
+  subtitle: Video
   docs:
   - /3
 
 - title: 4
-  subtitle: Help
+  subtitle: Activity
   docs:
   - /4
 
 - title: 5
-  subtitle: Export
+  subtitle: Help
   docs:
   - /5
+
+- title: 6
+  subtitle: Export
+  docs:
+  - /6
