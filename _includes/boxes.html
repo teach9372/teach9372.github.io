@@ -24,15 +24,12 @@
         <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
         {% for item in site.data.navigation_boxes %}
             {% if item.title and item.lesson %}
-            {% if item.lesson == item.doc }
             {% assign doc_url = item.doc | prepend:"/docs/" | append: "/1" %}
+            {% if item.lesson == item.doc %}
             <div>
                 <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
                     <a class="uk-position-cover" href="{{ doc_url }}"></a>
-                    {% if item.lesson == item.doc %}
                         <button class="uk-button uk-button-danger">Lesson</button>
-                        {% elsif item.lesson == "path" %}
-                    <button class="uk-button uk-button-primary" style="background-color:skyblue !important;">Path</button>
                     {% endif %}
                     <br><br>
                     {% if item.icon %}
@@ -43,7 +40,6 @@
                     <p>{{ item.desc }}</p>
                     {% endif %}
                 </div>
-                {% endif %}
             </div>
             {% endif %}
         {% endfor %}
