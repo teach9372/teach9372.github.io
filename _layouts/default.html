@@ -21,17 +21,9 @@
         {% include footer.html %}
     {% endif %}
 
-    {% if page.layout != 'path' %}
-        {% include footer.html %}
-    {% endif %}
-
     {% if page.layout == 'doc' %}
         {% include hook-pre-closing-body-doc.html %}
     {% endif %}
-
-    {% if page.layout == 'path' %}
-    {% include hook-pre-closing-body-doc.html %}
-{% endif %}
 
     {% include hook-pre-closing-body.html %}
 
