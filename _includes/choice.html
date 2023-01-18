@@ -24,14 +24,29 @@
         <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
         {% for item in site.data.choice %}
             <div>
+            {% if item.url == "../paths/" %}
+                <a href="{{ item.url }}">
                 <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
                     {% if item.title == 'Lessons' %}<button class="uk-button uk-button-danger">{{ item.title }}</button>{% else %} 
                     <button class="uk-button uk-button-primary" style="background-color: skyblue;">{{ item.title}}</button> {% endif %}
-                    {% if item.desc %}
-                    <p>{{ item.desc }}</p>
+                    {% if item.desc %}<p>{{ item.desc }}</p>{% endif %}
+
+                {% elsif item.url == "../lessons/" %}
+
+                    <a href="{{ item.url }}">
+                        <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+                            {% if item.title == 'Lessons' %}<button class="uk-button uk-button-danger">{{ item.title }}</button>{% else %} 
+                            <button class="uk-button uk-button-primary" style="background-color: skyblue;">{{ item.title}}</button> {% endif %}
+                            {% if item.desc %}
+                            
+                            <p>{{ item.desc }}</p>
+
+                            {% endif %}
+
                     {% endif %}
                 </div>
-            </div>
+            </a>
+                    </div>
         {% endfor %}
         </div>
 
