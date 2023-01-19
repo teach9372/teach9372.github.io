@@ -8,4 +8,4 @@ permalink: /contact/
 ##### Get in touch
 
 
-{% include formspree.html email="cmurgu@brocku.ca" redirect="/thanks/" name="true" subject="true" %}
+{% include formspree.html email="cmurgu@brocku.ca" name="true" subject="true" %}

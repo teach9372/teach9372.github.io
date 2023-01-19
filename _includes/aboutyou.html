@@ -1,39 +1,74 @@
-{% if include.email %}
-<form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://formspree.io/f/xknankdn" accept-charset="UTF-8">
-    {% if include.name == 'true' %}
-    <div class="uk-margin-medium-bottom">
-        <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">{{ site.data.translation[site.lang].contact_name | default: "Name" }}</label>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+
+<div id="demo-form">
+<form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://formspree.io/f/mknagvjp" accept-charset="UTF-8">
+
+    <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-select">{{ site.data.translation[site.lang].contact_status | default: "What's your status?" }}</label>
         <div class="uk-form-controls">
-            <input class="uk-input uk-form-large uk-border-rounded" name="name" type="text" required>
+            <select class="uk-select" id="form-stacked-select" name="message">
+                <option>Undergraduate</option>
+                <option>Graduate</option>
+            </select>
         </div>
     </div>
-    {% endif %}
-    <div class="uk-margin-medium-bottom">
-        <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">{{ site.data.translation[site.lang].contact_email | default: "Email" }}</label>
+
+    <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-select">{{ site.data.translation[site.lang].contact_faculty | default: "What faculty are you in?" }}</label>
         <div class="uk-form-controls">
-            <input class="uk-input uk-form-large uk-border-rounded" name="_replyto" type="email" required>
+            <select class="uk-select" id="form-stacked-select" name="message">
+                <option>Humanities</option>
+                <option>Social Science</option>
+                <option>Applied Health</option>
+                <option>Education</option>
+                <option>Business</option>
+                <option>Math/Science</option>
+            </select>
         </div>
     </div>
-    {% if include.subject == 'true' %}
-    <div class="uk-margin-medium-bottom">
-        <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">{{ site.data.translation[site.lang].contact_subject | default: "Subject" }}</label>
+    <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-text">{{ site.data.translation[site.lang].contact_program | default: "What program are you in? (Program code is fine!)" }}</label>
         <div class="uk-form-controls">
-            <input class="uk-input uk-form-large uk-border-rounded" name="_subject" type="text">
+            <input class="uk-input" id="form-stacked-text" type="text" placeholder="LABR" name="message">
         </div>
     </div>
-    {% endif %}
-    <div class="uk-margin-medium-bottom">
-        <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">{{ site.data.translation[site.lang].contact_message | default: "Message" }}</label>
+    <div class="uk-margin" style="display: none;">
+        <label class="uk-form-label" for="form-stacked-text">{{ site.data.translation[site.lang].contact_page | default: "Page" }}</label>
         <div class="uk-form-controls">
-            <textarea class="uk-textarea uk-form-large uk-border-rounded" name="message" rows="5" minlength="10" required></textarea>
+            <input class="uk-input" id="form-stacked-text" type="text" name="message" placeholder="LABR" value="{{ page.url }}">
         </div>
     </div>
     <div>
-        {% if include.redirect %}
-        <input type="hidden" name="_next" value="{{ include.redirect | absolute_url }}">
-        {% endif %}
-        <input type="text" name="_gotcha" style="display:none">
-        <input class="uk-button uk-button-primary uk-button-large uk-width-1-1" type="submit" value="{{ site.data.translation[site.lang].contact_send | default: 'Send' }}">
+        <input class="uk-button uk-button-primary uk-button-large" type="submit" value="{{ site.data.translation[site.lang].contact_send | default: 'Send' }}" onclick="alert('Form submitted. Thanks!')">
     </div>
 </form>
-{% endif %}
+
+<script>
+    $(function() {
+        function sendData($form) {
+            let dataString = $form.serialize();
+
+            return $.ajax({
+                type: $form.attr('method'),
+                url: $form.attr('action'),
+                data: dataString
+            });
+        }
+
+    $('form').on('submit', function(e) {
+        e.preventDefault(); // preventing the browser refresh
+
+        sendData($(this)).done(function() {
+            $("#demo-form").html('<div id="message"></div>');
+
+             $('#message')
+                .html('<h2>Form submitted! Thanks.</h2>');
+            });
+        });
+    });
+   // })
+
+</script>

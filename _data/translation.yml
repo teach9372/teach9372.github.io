@@ -18,3 +18,7 @@ en:
   contact_subject:            "Subject"
   contact_message:            "Message"
   contact_send:               "Send"
+  contact_program:            "What program are you in?"
+  contact_status:             "What is your student status?"
+  contact_faculty:            "What faculty are you in?"
+  contact_page:               "Page"
