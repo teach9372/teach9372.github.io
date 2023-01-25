@@ -55,3 +55,9 @@
   icon:  bolt
   doc: researchfundamentals
   lesson: path
+
+- title: Grey Literature
+  desc: In this lesson, you’ll learn about grey literature and how to find it. 
+  icon:  album
+  doc: greyliterature
+  lesson: greyliterature
