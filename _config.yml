@@ -33,23 +33,23 @@ author:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-    john:
+    tim:
       name:         Tim Ribaric
       title:        Librarian   
       avatar:       avatar-john.png
-    evan:
+    ian:
       name:         Ian Gordon
       title:        Librarian    
       avatar:       avatar-evan.png
-    sara:
+    jennifer:
       name:         Jennifer Thiessen
       title:        Librarian   
       avatar:       avatar-sara.png
-    alex:
+    kym:
       name:         Kym Ash
       title:        Librarian   
       avatar:       avatar-alex.png
-    daniel:
+    jessi:
       name:         Jessi Robinson
       title:        Librarian      
       avatar:       avatar-daniel.png
@@ -57,6 +57,10 @@ authors:
       name:         Cal Murgu
       title:        Lead Developer     
       avatar:       avatar-cal.png
+    team:
+      name:         Teaching and Learning Team
+      title:        T&L Team
+      avatar:       avatar-badger.png
 
 # pages
 
